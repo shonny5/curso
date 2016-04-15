@@ -1,0 +1,8 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+saludo:
+    path: /saludo
+    defaults: {_controller AppBundle:default:hola}
+    
